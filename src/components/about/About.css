@@ -1,0 +1,42 @@
+.personal-info-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #fffbfb;
+    border-radius: 10px;
+    padding: 16px;
+    max-width: 600px;
+    margin: auto;
+    background-color: rgba(5, 5, 5, 0.8);
+  }
+  
+  .personal-info-photo {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 18px;
+  }
+  
+  .personal-info-info {
+    flex: 1;
+  }
+  
+  .personal-info-name {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .personal-info-email {
+    margin: 8px 0;
+    font-size: 16px;
+    color:rgb(111, 162, 115);
+  }
+  
+  .personal-info-description {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(111, 162, 115);
+  }
+  
